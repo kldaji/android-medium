@@ -46,4 +46,7 @@ dependencies {
 
     // DateTime
     implementation 'joda-time:joda-time:2.10.6'
+
+    // fragment-ktx
+    implementation("androidx.fragment:fragment-ktx:1.4.1")
 }
