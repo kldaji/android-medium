@@ -29,10 +29,18 @@ class CalendarUtils {
         fun isSameMonth(first: DateTime, second: DateTime): Boolean =
             first.year == second.year && first.monthOfYear == second.monthOfYear
 
-        fun getDayColor(dayOfWeek: Int): Int {
+        fun getDateColor(dayOfWeek: Int): Int {
             return when (dayOfWeek) {
                 DateTimeConstants.SATURDAY -> Color.BLUE
                 DateTimeConstants.SUNDAY -> Color.RED
+                else -> Color.BLACK
+            }
+        }
+
+        fun getDayColor(day: String): Int {
+            return when (day) {
+                "토" -> Color.BLUE
+                "일" -> Color.RED
                 else -> Color.BLACK
             }
         }

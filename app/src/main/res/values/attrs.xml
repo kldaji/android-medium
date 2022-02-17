@@ -2,6 +2,9 @@
 <resources>
     <declare-styleable name="CalendarView">
         <attr name="dayHeight" format="dimension"/>
+        <attr name="dateHeight" format="dimension"/>
+
         <attr name="dayTextSize" format="dimension"/>
+        <attr name="dateTextSize" format="dimension"/>
     </declare-styleable>
 </resources>

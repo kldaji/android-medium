@@ -32,8 +32,8 @@ class CalendarFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val firstDateTimeOfMonth = DateTime(millis)
-        binding.tvCalendarMillis.text = firstDateTimeOfMonth.toString("yyyy-MM")
         binding.cvCalendar.initCalendar(firstDateTimeOfMonth, getDateTimes(DateTime(millis)))
+        binding.tbCalendar.title = firstDateTimeOfMonth.toString("yyyy년 MM월")
     }
 
     override fun onDestroyView() {
