@@ -92,7 +92,7 @@ class ProgressBarView @JvmOverloads constructor(
         canvas.drawArc(progressBarRectF,
             270f,
             (360 * progress / 100).toFloat(),
-            true,
+            false,
             progressBarPaint)
     }
 }
