@@ -13,4 +13,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="ProgressBar">
+        <item name="progressBarWidth">100dp</item>
+        <item name="progressBarHeight">100dp</item>
+        <item name="progressBarTextSize">16dp</item>
+        <item name="progressBarStrokeWidth">6dp</item>
+        <item name="progressBarColor">@color/teal_200</item>
+        <item name="progressBarTextColor">@color/black</item>
+    </style>
 </resources>
