@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RouletteView">
+        <attr name="rouletteViewWidth" format="dimension" />
+        <attr name="rouletteViewHeight" format="dimension" />
+        <attr name="boundaryStrokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PinView">
+        <attr name="rouletteViewRadius" format="dimension" />
+    </declare-styleable>
+</resources>
